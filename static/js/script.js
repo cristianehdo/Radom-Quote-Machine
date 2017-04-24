@@ -1,21 +1,17 @@
-<script>
 
 
 
- buttonNewQuote.function randomFunction(){
 
-var number = Math.floor((Math.random() * 10) + 1);
+ function randomFunction(){
 
-randomQuotes(number);
+    var number = Math.floor((Math.random() * 10) + 1);
+    var answer = randomQuotes(number);
+    document.getElementById("showQuote").innerText = answer;
 
- document.getElementById("showQuote").value = answer;
-
-  });
+  }
 
 function randomQuotes(num) {
   var answer = "";
-
-
   switch (num) {
       case 1: answer = "C'est quand le silence s'est tu que les oiseaux se sont mis à chanter.";
       break;
@@ -36,10 +32,10 @@ function randomQuotes(num) {
       case 9: answer = "Pour la victoire de la lumière nous brandirons une torche sur les plus longs chemins.";
       break;
       case 10: answer = "case 10";
-
+    }
       return answer;
-  }
+
+}  
+
+
   
-
-
-  </script>
