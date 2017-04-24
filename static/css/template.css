@@ -1,0 +1,57 @@
+body {
+	background-color: white;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	background-image: 
+}
+div#fredimage {
+	margin: 0 auto;
+	background-image: url("../images/fredimage0.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;	
+    width: 600px;
+    height: 790px;
+}
+div#quoteBox{
+	margin: 0 auto;
+	text-align: center;
+	width: 500px;
+	height: 250px;
+	position: relative;
+	top: 315px;
+	left: -348px;
+	color: black;
+
+}
+div#quote{
+	margin: 0 auto;
+	text-align: center;
+	width: 400px;
+	height: 160px;
+
+
+}
+div#buttons {
+	margin: 0 auto;
+	text-align: center;
+	width: 400px;
+	height: 60px;
+}
+.button {
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-family: Georgia;
+  color: #1a041a;
+  font-size: 14px;
+  background: #FFFFFF;
+  padding: 11px 36px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button:hover {
+  background: #dddfe0;
+  text-decoration: none;
+}
