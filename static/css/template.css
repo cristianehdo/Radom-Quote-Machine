@@ -1,7 +1,14 @@
+@font-face {
+font-family: 'Milkshake';
+font-style: normal;
+font-weight: lighter;
+src: url('../fonts/Milkshake.ttf') format('opentype');
+}
 body {
+	font-family: "Milkshake";
 	background-color: white;
 	color: white;
-	font-size: 18px;
+	font-size: 16px;
 	text-align: center;
 	background-image: 
 }
@@ -10,17 +17,17 @@ div#fredimage {
 	background-image: url("../images/fredimage0.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;	
-    width: 1320px;
-    height: 970px;
+    width: 1184px;
+    height: 889px;
 }
 div#quote{
 	margin: 0 auto;
 	text-align: center;
-	width: 500px;
-	height: 205px;
+	width: 455px;
+	height: 181px;
 	position: relative;
-	top: 334px;
-	left: -252px;
+	top: 317px;
+	left: -220px;
 	color: black;
 
 
@@ -31,22 +38,21 @@ div#buttons {
 	width: 1200px;
 	height: 60px;
 	position: relative;
-	top:707px;
+	top:644px;
 }
 .button {
   -webkit-border-radius: 12;
   -moz-border-radius: 12;
   border-radius: 12px;
-  font-family: Georgia;
   color: #1a041a;
-  font-size: 14px;
-  background: #FFFFFF;
+  font-size: 18px;
+  background: #dddfe0;
   padding: 11px 36px 10px 20px;
   text-decoration: none;
   text-align: center;
 }
 
 .button:hover {
-  background: #dddfe0;
+  background: #a1a2a4;
   text-decoration: none;
 }
