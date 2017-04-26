@@ -10,33 +10,28 @@ div#fredimage {
 	background-image: url("../images/fredimage0.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;	
-    width: 600px;
-    height: 790px;
-}
-div#quoteBox{
-	margin: 0 auto;
-	text-align: center;
-	width: 500px;
-	height: 250px;
-	position: relative;
-	top: 315px;
-	left: -348px;
-	color: black;
-
+    width: 1320px;
+    height: 970px;
 }
 div#quote{
 	margin: 0 auto;
 	text-align: center;
-	width: 400px;
-	height: 160px;
+	width: 500px;
+	height: 205px;
+	position: relative;
+	top: 334px;
+	left: -252px;
+	color: black;
 
 
 }
 div#buttons {
 	margin: 0 auto;
 	text-align: center;
-	width: 400px;
+	width: 1200px;
 	height: 60px;
+	position: relative;
+	top:707px;
 }
 .button {
   -webkit-border-radius: 12;

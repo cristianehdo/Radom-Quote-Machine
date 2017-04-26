@@ -5,20 +5,24 @@
         <title>FredLeChevalier Quotes</title>
         <script type="application/javascript" src="static/js/script.js"></script>
         <link href="static/css/template.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="static/font-awesome/css/font-awesome.min.css">
 
 	</head>
 	<body>
 		<div id = "fredimage">
-			<div id = "quoteBox">
-				<div id = "quote">
-					<h1 id="showQuote"> Veux-tu savoir ce que pense Fred Le Chevalier?</h1>
-					<div id = "buttons">
-					<button onclick="randomFunction()" id = "buttonNewQuote" class="button">New quote</button>	
-					<a onclick="tweetFunction()" class="twitter-share-button button">Tweet</a> 
-					</div>
-				</div>	
-
+			<div id = "quote">
+				<h1 id="showQuote"> Veux-tu savoir ce que pense Fred Le Chevalier?</h1>
+			</div>	
+			<div id = "buttons">
+				<table style="width:100%">
+ 					 <tr>
+   						 <th><a onclick="randomFunction()" id = "buttonNewQuote" class="button">New quote</a></th>
+   						 <th><a onclick="tweetFunction()" class="twitter-share-button button">
+<i class="fa fa-twitter" style="color: black; aria-hidden="true"></i> Share</a></th>
+					</tr>
+				</table>	
 			</div>
+			
 		</div>	
 	</body>
 
